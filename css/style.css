@@ -1062,7 +1062,7 @@ table.price__table th,
 @media (min-width: 768px) {
   .accordion-title{
     font-size: 18px;
-    padding: 9px 0% 0px 9.1%;
+    padding: 8.5px 0% 0px 9.1%;
   }
 }
 .accordion-title .faq__box-icon--::before{
