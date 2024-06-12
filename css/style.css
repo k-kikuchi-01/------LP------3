@@ -919,6 +919,12 @@ ul {
 .price__table{
   border-collapse: collapse;
 }
+@media (min-width: 768px) {
+  .price__table{
+    border-collapse: collapse;
+    margin-right: 4%;
+  }
+}
 table.price__table th,
   table.price__table td{
     text-align: left;
@@ -941,7 +947,7 @@ table.price__table th,
 }
 @media (min-width: 768px) {
   table.price__table td{
-    padding: 16px 0px 18px 21px;
+    padding: 16px 0px 18px 23px;
     font-size: 16px;
     width: 38.6vw;
   }
