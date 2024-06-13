@@ -34,10 +34,10 @@ $('.gallery__slick').slick({
   fade: true
 });
 // アコーディオンのタイトルがクリックされたら
-$('.accordion-title').on('click', function(e) {
+$('.faq__box-top').on('click', function(e) {
 
   // .accordion-contentを選択
-  var content = $(e.target).next();
+  var content = $(this).next('.accordion-content');
 
   // .accordion-contentを表示・非表示
   content.slideToggle();
