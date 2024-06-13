@@ -210,6 +210,7 @@ ul {
     column-gap: 39px;
     font-size: 16px;
     padding: 20px 8px 5px 0px;
+    width: 309px;
   }
 }
 @media (min-width: 768px) {
@@ -752,9 +753,9 @@ ul {
     left: -0.1%;
     bottom: 5.9%;
     font-size: 36px;
-    padding: 23px 0px 0px 3.6%;
+    padding: 23px 3% 0px 3.6%;
     background-color: #ffffff;
-    width: 27.3%;
+    width: fit-content;
     height: 113px;
     border-radius: 0px 40px 0px 0px;
   }
