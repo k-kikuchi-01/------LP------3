@@ -882,6 +882,7 @@ ul {
 .price__text{
   font-size: 32px;
   padding: 9px 0px 42px 0px;
+  color: #168352;
 }
 @media (min-width: 768px) {
   .price__text{
